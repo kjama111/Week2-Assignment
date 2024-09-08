@@ -1,0 +1,26 @@
+* {
+  background-color: cadetblue;
+}
+
+.buttons {
+  display: grid;
+  justify-content: space-between;
+}
+
+.prev,
+.next {
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+
+@media (min-width: 100%) {
+  .image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
